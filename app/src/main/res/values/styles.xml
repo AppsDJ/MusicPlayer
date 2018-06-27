@@ -1,0 +1,136 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LibraryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+    </style>
+
+    <style name="image_playing_now">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">300dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+    </style>
+
+    <style name="play_main_btn">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="song_playing">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="artist_name_playing">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="controls_area">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/my_library</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:paddingLeft">45dp</item>
+        <item name="android:paddingRight">45dp</item>
+        <item name="android:paddingTop">24dp</item>
+    </style>
+
+    <style name="control_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="song_title_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="artist_name_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:paddingLeft">8dp</item>
+    </style>
+
+    <style name="lib_image">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="list_main">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <style name="time_into_song">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+    <style name="song_details_area">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/now_playing_details</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="go_to_song_arrow">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="lib_song_details">
+        <item name="android:layout_weight">7</item>
+        <item name="android:layout_width">230dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+</resources>

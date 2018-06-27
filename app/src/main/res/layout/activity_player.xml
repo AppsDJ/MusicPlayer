@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.appsdj.musicplayer.PlayerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/my_library">
+
+        <ImageButton
+            android:id="@+id/return_to_library"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_back"
+            android:background="@color/my_library"
+            android:padding="16dp"
+            android:layout_gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/player"
+            style="@style/LibraryStyle"
+            android:layout_weight="1"
+            android:background="@color/my_library"
+            android:text="@string/player" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/player_main_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/color_player"
+        android:gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_playing_now"
+                android:src="@drawable/aha_l"
+                style="@style/image_playing_now" />
+
+            <ImageView
+                android:id="@+id/play_main_btn"
+                android:src="@drawable/play_main_btn"
+                style="@style/play_main_btn" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/song_details_area"
+        style="@style/song_details_area">
+
+        <TextView
+            android:id="@+id/song_playing"
+            android:text="@string/song_title"
+            style="@style/song_playing" />
+
+        <TextView
+            android:id="@+id/artist_name_playing"
+            android:text="@string/artist_name"
+            style="@style/artist_name_playing" />
+
+        <TextView
+            android:id="@+id/time_into_song"
+            android:text="@string/time_into_song"
+            style="@style/time_into_song" />
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/controls_area"
+        style="@style/controls_area">
+
+        <ImageView
+            style="@style/control_btn"
+            android:src="@drawable/rewind_btn" />
+
+        <ImageView
+            style="@style/control_btn"
+            android:src="@drawable/stop_btn" />
+
+        <ImageView
+            style="@style/control_btn"
+            android:src="@drawable/pause_btn" />
+
+        <ImageView
+            style="@style/control_btn"
+            android:src="@drawable/ff_btn" />
+
+    </LinearLayout>
+
+</LinearLayout>

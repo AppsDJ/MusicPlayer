@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+    <string name="library">My Library</string>
+
+    <string name="player">Now playing</string>
+    <string name="song_title">Alive and Kicking</string>
+    <string name="artist_name">Simple Minds</string>
+    <string name="time_into_song">00:00 / 00:00</string>
+</resources>
